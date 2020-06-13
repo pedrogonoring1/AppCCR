@@ -1,1 +1,17 @@
 // app global css in SCSS form
+
+.Texttest{
+    color: red;
+    font-weight: bold;
+    font-size: 70px;
+}
+.userInfo{
+    border-width: 2px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(145, 145, 145);
+    //background-color: red;
+    height: 200px;
+    width: 90%;
+    margin-top: 25px;
+}
