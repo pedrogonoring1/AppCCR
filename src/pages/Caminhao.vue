@@ -38,7 +38,7 @@
 
         <div class="row text-center">
             <div class="col-12">
-                <q-btn label="Oficinas" class="btn-Acoes btn-blue"/>
+                <q-btn label="Oficinas" class="btn-Acoes btn-blue" to="/oficinas"/>
             </div>
             <div class="col-12">
                 <q-btn label="Troca de Óleo" class="btn-Acoes btn-green"/>

@@ -11,8 +11,8 @@
 
 
     <!-- Cards Pontos Proximos -->
-    <div class="row q-ml-lg">
-        <div class="col-12 q-mt-xs ">
+    <div class="row paddingPanel q-mt-xs">
+        <div class="col-12  userInfo">
             <label class="text-subtitle1 text-weight-bolder">SUAS INFORMAÇÕES</label> <br>
             <label class="text-subtitle1 text-weight-bolder">Peso:</label> <label class="text-subtitle1 q-mr-md"> 78kg </label> <a href="">Atualizar</a> <br>
             <label class="text-subtitle1 text-weight-bolder">IMC:</label> <label class="text-subtitle1"> Está Excelente </label> <br>
@@ -57,7 +57,7 @@
             <q-separator />
 
             <q-card-actions>
-                <q-btn flat color="primary" @click="dialog4 = true">
+                <q-btn flat color="primary">
                 Ler agora
                 </q-btn> 
                 <q-btn flat round color="primary" icon="share"/>
@@ -100,44 +100,7 @@
 
 
     <!-- Modal -->
- <div class="q-pa-md q-gutter-sm">
-        
-        <q-dialog
-        v-model="dialog4"
-        persistent
-        :maximized="maximizedToggle"
-        transition-show="slide-up"
-        transition-hide="slide-down"
-        >
-        <q-card class="bg-white text-dark">
-            <q-bar>
-            <q-space />
 
-            <q-btn dense flat icon="minimize" @click="maximizedToggle = false" :disable="!maximizedToggle">
-                <q-tooltip v-if="maximizedToggle" content-class="bg-white text-primary">Minimize</q-tooltip>
-            </q-btn>
-            <q-btn dense flat icon="crop_square" @click="maximizedToggle = true" :disable="maximizedToggle">
-                <q-tooltip v-if="!maximizedToggle" content-class="bg-white text-primary">Maximize</q-tooltip>
-            </q-btn>
-            <q-btn dense flat icon="close" v-close-popup>
-                <q-tooltip content-class="bg-white text-primary">Close</q-tooltip>
-            </q-btn>
-            </q-bar>
-
-            <q-card-section>
-            <div class="text-h4 q-mb-md">oi</div>
-            <q-img
-                    class="rounded-borders"
-                    src="https://cdn.quasar.dev/img/parallax2.jpg"
-                    style="width: 328px"/>
-            </q-card-section>
-
-            <q-card-section class="q-pt-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus sit voluptate voluptas eveniet porro. Rerum blanditiis perferendis totam, ea at omnis vel numquam exercitationem aut, natus minima, porro labore.
-            </q-card-section>
-        </q-card>
-        </q-dialog>
-    </div>
 
 
 
@@ -157,7 +120,6 @@
 
 <script>
 export default {
-    name: 'PageSuaSaude',
-    dialog4: false,
+    name: 'PageSuaSaude'
 }
 </script>
