@@ -1,5 +1,6 @@
 import Index from "pages/Index";
-import Viagem from "pages/Viagem";
+import PageViagem from "pages/Viagem";
+import Error404 from "pages/Error404";
 
 const routes = [
   {
@@ -14,7 +15,7 @@ const routes = [
     path: '/viagem',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: Viagem }
+      { path: '', component: PageViagem }
     ]
   }
 ]
@@ -23,7 +24,7 @@ const routes = [
 if (process.env.MODE !== 'ssr') {
   routes.push({
     path: '*',
-    component: () => import('pages/Error404.vue')
+    component: Error404
   })
 }
 
