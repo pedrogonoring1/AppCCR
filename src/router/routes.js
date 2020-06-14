@@ -1,5 +1,7 @@
 import Index from "pages/Index";
 import PageViagem from "pages/Viagem";
+import PageSocialTruck from "pages/SocialTruck";
+import PageParadasProximas from "pages/ParadasProximas";
 import Error404 from "pages/Error404";
 
 const routes = [
@@ -17,7 +19,23 @@ const routes = [
         children: [
             { path: '', component: PageViagem }
         ]
-    }
+    },
+
+    {
+      path: '/socialtruck',
+      component: () => import('layouts/MainLayout.vue'),
+      children: [
+          { path: '', component: PageSocialTruck }
+      ]
+  },
+
+  {
+    path: '/paradasproximas',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+        { path: '', component: PageParadasProximas }
+    ]
+}
 ]
 
 // Always leave this as last one

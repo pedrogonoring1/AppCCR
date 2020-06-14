@@ -1,7 +1,7 @@
 <template>
     <q-page>
         <!-- Painel de Viagem -->
-        <div class="row paddingPanel">
+        <div class="row paddingPanel q-mt-lg">
             <div class="col-12 userInfo">
                 <label class="text-weight-bolder"> 
                     VIAGEM ATUAL
