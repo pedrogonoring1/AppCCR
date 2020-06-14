@@ -21,9 +21,9 @@
         </div>
 
         <div class="q-pa-md container q-gutter-xs" align="center">
-            <q-btn rounded push size="lg" class="block text-black full-width" color="green" label="SUA SAÚDE" />
-            <q-btn rounded push size="lg" class="block text-black full-width" color="blue" label="SOCIAL TRUNK" />
-            <q-btn rounded push size="lg" class="block text-black full-width" color="yellow" label="ENTRETENIMENTO" />
+            <q-btn to="/saude" rounded push size="lg" class="block text-black full-width" color="green" label="SUA SAÚDE" />
+            <q-btn to="/socialtrunk" rounded push size="lg" class="block text-black full-width" color="blue" label="SOCIAL TRUNK" />
+            <q-btn to="/entretenimento" rounded push size="lg" class="block text-black full-width" color="yellow" label="ENTRETENIMENTO" />
         </div>
     </q-page>
 </template>
