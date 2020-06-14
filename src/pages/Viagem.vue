@@ -1,7 +1,9 @@
 <template>
   <q-page>
 
+    <!-- Painel de Viagem -->
     <div class="row paddingPanel">
+
         <div class="col-12 userInfo">
 
             <label class="text-weight-bolder"> 
@@ -23,12 +25,21 @@
             <label> 
                 Rio de Janeiro, Rj.
             </label>
-
-
-            
         </div>
+
     </div>
     
+    <div class="row text-center">
+        
+        <div class="col-12">
+            <q-btn label="Adicionar Viagem" class="btn-Acoes btn-green"/>
+        </div>
+
+        <div class="col-12">
+            <q-btn label="Pontos Paradas" class="btn-Acoes btn-blue"/>
+        </div>
+
+    </div>
     
 
     
