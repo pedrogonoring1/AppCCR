@@ -4,7 +4,7 @@
     <!-- Title -->
     <div class="row">
         <div class="col-12 q-pt-lg q-mb-lg q-mt-sm">
-            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> {{ postVisu.title }} </label>
+            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> </label>
             
         </div>
     </div> 
@@ -29,33 +29,35 @@
 import { LocalStorage } from "quasar";
 
 
-postVisu = {id: "0",
-            title: "x",
-            texto: "x",
-            img_url: "x",
-};
+// postVisu = { id: "0",
+//             title: "Title",
+//             texto: "x",
+//             img_url: "x",
+// };
 
-posts = [];
+// posts = [];
 
 
-if(LocalStorage.getItem("postEntretenimento") === null){
+// if(LocalStorage.getItem("postEntretenimento") === null){
     
-    this.postVisu = {
-            id: 1,
-            title: "Estradas Seguras",
-            texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos praesentium dolor temporibus sint exercitationem numquam aperiam consectetur! Voluptate cum provident soluta quia ratione rem quod vel consequatur praesentium eius.",
-            img_url: "https://cdn.quasar.dev/img/parallax2.jpg",
-    }
-   
+//   const  postVisu = {
+//             id: 1,
+//             title: "Estradas Seguras",
+//             texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos praesentium dolor temporibus sint exercitationem numquam aperiam consectetur! Voluptate cum provident soluta quia ratione rem quod vel consequatur praesentium eius.",
+//             img_url: "https://cdn.quasar.dev/img/parallax2.jpg",
+//     }
+
+//     console.log(postVisu);
+// }
 
 
-const postsSet = [
-        { post: { id: "2", title: "Estradas Seguras", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
-        { post: { id: "3", title: "Estradas ", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
-        { post: { id: "4", title: "Seguras", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
-    ]
+// const postsSet = [
+//         { post: { id: "2", title: "Estradas Seguras", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
+//         { post: { id: "3", title: "Estradas ", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
+//         { post: { id: "4", title: "Seguras", texto: "Lorem ipsum isicing elit. Deserunt eos praes", img_url: "https://cdn.quasar.dev/img/parallax2.jpg"}},
+//     ]
     
-    LocalStorage.set("posts", postsSet);
+//     LocalStorage.set("posts", postsSet);
 
 
 
@@ -63,10 +65,10 @@ export default {
   name: 'PageEntretenimento',
   data () {
     return {
-      id: 1,
-      starsTest: 5,
+      id: 1
+
     }
   }
-}}
+}
 
 </script>
