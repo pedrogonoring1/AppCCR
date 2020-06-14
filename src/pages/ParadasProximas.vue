@@ -44,7 +44,7 @@
 
     <div class="row text-center">
         <div class="col-12">
-            
+            <q-btn label="Adicionar Viagem" class="btn-Acoes btn-green"/>
         </div>
     </div>
 
