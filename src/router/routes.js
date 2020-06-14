@@ -1,4 +1,4 @@
-import Index from "pages/Index";
+import Index from "pages/Entreterimento";
 import PageViagem from "pages/Viagem";
 import PageSocialTruck from "pages/SocialTruck";
 import PageParadasProximas from "pages/ParadasProximas";
