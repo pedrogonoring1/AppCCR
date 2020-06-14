@@ -15,7 +15,7 @@
             <q-img
                 src="~assets/img/hotel.png"
                 spinner-color="white"
-                style="height: 60px; max-width: 60px"
+                style="height: 45px; max-width: 45px"
                 class="q-mb-sm"
             /> <br>
             <label for="">Hoteis</label>
@@ -25,7 +25,7 @@
             <q-img
                 src="~assets/img/iconFork.png"
                 spinner-color="white"
-                style="height: 60px; max-width: 60px"
+                style="height: 45px; max-width: 45px"
                 class="q-mb-sm"
             /> <br>
             <label for="">Comida</label>
@@ -34,7 +34,7 @@
             <q-img
                 src="~assets/img/iconConfig.png"
                 spinner-color="white"
-                style="height: 60px; max-width: 60px"
+                style="height: 45px; max-width: 45px"
                 class="q-mb-sm"
             /> <br>
             <label class="q-mb-lg">Oficinas</label>
