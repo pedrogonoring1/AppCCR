@@ -30,27 +30,6 @@
 <script>
 import { LocalStorage } from "quasar";
 
-if (LocalStorage.getItem("motorista") === null) {
-    const motorista = {
-        pessoais: {
-            nome: "Gabriel Lobo",
-            cidade: "Guanambi, BA",
-            avatar_url: "https://cdn.quasar.dev/img/avatar4.jpg",
-        },
-        level: 15,
-        dias_ativo: 155
-    };
-
-    const motoristas = [
-        { pessoais: { nome: "Sabrina Dias", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar2.jpg", }, level: 9, dias_ativo: 155 },
-        { pessoais: { nome: "João Pedro", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar1.jpg", }, level: 16, dias_ativo: 155 },
-        { pessoais: { nome: "Fernanda Rodrigues", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar3.jpg", }, level: 12, dias_ativo: 155 },
-    ]
-    LocalStorage.set("motorista", motorista);
-    LocalStorage.set("motoristas", motoristas);
-}
-
-
 export default {
     name: 'Index',
     data () {
