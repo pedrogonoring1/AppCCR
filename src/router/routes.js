@@ -1,10 +1,12 @@
+import Index from "pages/Index";
+import Viagem from "pages/Viagem";
 
 const routes = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: Index }
     ]
   },
 
@@ -12,7 +14,7 @@ const routes = [
     path: '/viagem',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Viagem.vue') }
+      { path: '', component: Viagem }
     ]
   }
 ]
