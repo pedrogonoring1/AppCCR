@@ -163,7 +163,7 @@
 <script>
 
 export default {
-  name: 'PageParadasProximas',
+  name: 'PageEntreterimento',
   data () {
     return {
       stars: 4,

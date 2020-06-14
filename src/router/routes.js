@@ -1,7 +1,7 @@
 import MainLayout from "layouts/MainLayout";
 
 import PageCaminhao from "pages/Caminhao";
-import PageEntretenimento from "pages/Entretenimento";
+import PageEntreterimento from "pages/Entreterimento";
 import Error404 from "pages/Error404";
 import Index from "pages/Index";
 import PageMotorista from "pages/Motorista";
@@ -19,7 +19,7 @@ const routes = [
     },
     { path: '/entretenimento', component: MainLayout,
         children: [
-            { path: '', component: PageEntretenimento }
+            { path: '', component: PageEntreterimento }
         ]
     },
     { path: '/', component: MainLayout,
