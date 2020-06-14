@@ -1,6 +1,8 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+
+    <!-- Header -->
+    <q-header elevated class="bg-white">
       <q-toolbar>
         <q-btn
           flat
@@ -9,13 +11,13 @@
           icon="menu"
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
+          class="text-dark"
         />
 
-        <q-toolbar-title>
-          AppNome
+        <q-toolbar-title class="text-dark">
+          NomeAqui
         </q-toolbar-title>
 
-        <div>User</div>
       </q-toolbar>
     </q-header>
 
@@ -44,16 +46,18 @@
       <router-view />
     </q-page-container>
 
-    <!-- FOOT -->
-    <q-footer elevated>
-        <q-toolbar>
-          <q-toolbar-title>
-            
-            Footer
 
-          </q-toolbar-title>
-        </q-toolbar>
-      </q-footer>
+
+
+    <!-- Menu Footer -->
+    <div class="row items-center text-center fixed-bottom footer">
+      <div class="col-4 "> <img src="~assets/img/iconUser.png" alt="" class="iconFooter responsive"> </div>
+      <div class="col-4 "> <img src="~assets/img/iconTruck.png" alt="" class="iconFooter2 responsive"> </div>
+      <div class="col-4 "> <img src="~assets/img/iconMap.png" alt="" class="iconFooter2 responsive"> </div>
+    </div>
+    
+
+
   </q-layout>
 </template>
 
