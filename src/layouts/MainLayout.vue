@@ -24,13 +24,13 @@
 
     <!-- Menu Footer -->
     <div class="row items-center text-center fixed-bottom footer">
-        <router-link tag="div" class="col-4 item item-link" to="/motorista">
+        <router-link tag="div" class="col-4 item item-link" to="/">
             <img src="~assets/img/iconUser.png" alt="" class="iconFooter responsive">
         </router-link>
         <router-link tag="div" class="col-4 item item-link" to="/caminhao">
             <img src="~assets/img/iconTruck.png" alt="" class="iconFooter2 responsive">
         </router-link>
-        <router-link tag="div" class="col-4 item item-link" to="/mapa">
+        <router-link tag="div" class="col-4 item item-link" to="/viagem">
             <img src="~assets/img/iconMap.png" alt="" class="iconFooter2 responsive">
         </router-link>
     </div>

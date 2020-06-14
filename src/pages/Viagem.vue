@@ -27,10 +27,10 @@
 
         <div class="row text-center">
             <div class="col-12">
-                <q-btn label="Adicionar Viagem" class="btn-Acoes btn-green"/>
+                <q-btn label="Pontos Paradas" class="btn-Acoes btn-blue" to="/paradasproximas"/>
             </div>
             <div class="col-12">
-                <q-btn label="Pontos Paradas" class="btn-Acoes btn-blue"/>
+                <q-btn label="Adicionar Viagem" class="btn-Acoes btn-green"/>
             </div>
         </div>
     </q-page>
