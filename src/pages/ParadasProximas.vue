@@ -8,7 +8,9 @@
         </div>
     </div>  
 
-    <div class="row text-center">
+
+    <!-- Card para filtrar local de parada -->
+    <div class="row text-center q-pr-sm">
         <div class="col-4">
             <q-img
                 src="~assets/img/hotel.png"
@@ -20,12 +22,28 @@
             
         </div>
         <div class="col-4">
-            s
+            <q-img
+                src="~assets/img/iconFork.png"
+                spinner-color="white"
+                style="height: 60px; max-width: 60px"
+                class="q-mb-sm"
+            /> <br>
+            <label for="">Comida</label>
         </div>
         <div class="col-4">
-            n
+            <q-img
+                src="~assets/img/iconConfig.png"
+                spinner-color="white"
+                style="height: 60px; max-width: 60px"
+                class="q-mb-sm"
+            /> <br>
+            <label for="">Oficinas</label>
         </div>
     </div>
+
+
+    
+
     
 
   
