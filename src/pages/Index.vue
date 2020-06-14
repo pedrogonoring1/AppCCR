@@ -8,12 +8,12 @@
                         <q-avatar size="100px" font-size="52px" color="grey" text-color="white" icon="account_circle" />
                         <!-- <q-avatar><img src="https://cdn.quasar.dev/img/avatar.png"></q-avatar> -->
                     </div>
-                    <div>Level: 15</div>
+                    <div>Level: {{ motorista["level"] }}</div>
                     </q-card-section>
                 
                     <q-card-section class="q-mt-lg">
-                        <div class="text-h6">Gabriel Lobo</div>
-                        <div class="q-pb-md">Guanambi, BA</div>
+                        <div class="text-h6">{{ motorista["pessoais"]["nome"] }}</div>
+                        <div class="q-pb-md">{{ motorista["pessoais"]["cidade"] }}</div>
                         <div>Dias ativo: 155 dias</div>
                     </q-card-section>
                 </q-card>
@@ -27,3 +27,21 @@
         </div>
     </q-page>
 </template>
+
+<script>
+import { LocalStorage } from "quasar";
+
+if (LocalStorage.getItem("motorista") === null) {
+    const motorista = { pessoais: { nome: "Gabriel Lobo", cidade: "Guanambi, BA" }, level: 15 };
+    LocalStorage.set("motorista", motorista);
+}
+
+export default {
+    name: 'Index',
+    data () {
+        return {
+            motorista: LocalStorage.getItem("motorista")
+        }
+    }
+}
+</script>
