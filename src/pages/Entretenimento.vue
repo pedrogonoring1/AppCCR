@@ -5,6 +5,6 @@
 
 <script>
 export default {
-    name: 'PageMotorista',
+    name: 'PageEntretenimento',
 }
 </script>

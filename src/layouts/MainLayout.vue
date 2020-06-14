@@ -5,7 +5,9 @@
     <q-header elevated class="bg-white">
         <q-toolbar>
             <q-btn flat dense round icon="menu" aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen" class="text-dark" />
-            <q-toolbar-title class="text-dark">NomeAqui</q-toolbar-title>
+            <router-link to="/">
+                <q-toolbar-title class="text-dark">NomeAqui</q-toolbar-title>
+            </router-link>
         </q-toolbar>
     </q-header>
 
@@ -22,7 +24,7 @@
 
     <!-- Menu Footer -->
     <div class="row items-center text-center fixed-bottom footer">
-        <router-link tag="div" class="col-4 item item-link" to="/perfil">
+        <router-link tag="div" class="col-4 item item-link" to="/motorista">
             <img src="~assets/img/iconUser.png" alt="" class="iconFooter responsive">
         </router-link>
         <router-link tag="div" class="col-4 item item-link" to="/caminhao">
