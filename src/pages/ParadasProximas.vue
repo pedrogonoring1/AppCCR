@@ -47,25 +47,38 @@
         <div class="col-12">
             <br>
             <q-btn label="Avalie um local" class="btn-Acoes btn-blue"/>
-            <br>
         </div>
     </div>
 
 
-    <div class="row">
+    <!-- Painel de Pontos próximos do motorista -->
+    <div class="row paddingPanel">
         
+        <div class="col-12 userInfo text-subtitle1">
+            <label class="text-weight-bolder"> 
+                Posto Point Brasil
+            </label> <br>
+            
+            <label> 15 km de você. </label>
+
+            <div class="text-right">
+                <label> 786 curtidas </label>
+                <q-img
+                src="~assets/img/iconLike.png"
+                spinner-color="white"
+                style="height: 30px; max-width: 30px"
+                class="q-mb-sm"
+            />
+            </div>
+        </div>
+
+
+
     </div>
 
 
 
 
-    
-
-  
-    
-
-
-    
 
 
 
