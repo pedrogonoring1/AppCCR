@@ -47,7 +47,7 @@ if (LocalStorage.getItem("motorista") === null) {
         { pessoais: { nome: "Fernanda Rodrigues", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar3.jpg", }, level: 12, dias_ativo: 155 },
     ]
     LocalStorage.set("motorista", motorista);
-    LocalStorage.set("motoristas", motoristas);
+    LocalStorage.set("motoristas", motoristas); 
 }
 
 

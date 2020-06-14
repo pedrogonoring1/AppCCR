@@ -73,8 +73,8 @@
             <q-separator />
 
             <q-card-actions>
-                <q-btn flat color="primary">
-                Ler agora
+                <q-btn flat color="primary" @click="id = 1">
+                Ler agora {{ id }}
                 </q-btn> 
                 <q-btn flat round color="primary" icon="share"/>
             </q-card-actions>
@@ -162,13 +162,18 @@
 
 <script>
 
+
 export default {
   name: 'PageEntretenimento',
+  id: 0,
   data () {
     return {
-      stars: 4,
-      starsTest: 5,
+        id: 0,
+        stars: 4,
+        starsTest: 5, 
     }
-  }
+  },
+
+
 }
 </script>
