@@ -42,7 +42,7 @@
     </div>
 
 
-
+    
     <!-- Cards Pontos Proximos -->
 
     <div class="row text-center q-mt-lg">
