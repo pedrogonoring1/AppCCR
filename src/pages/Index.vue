@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="q-pa-md container q-gutter-xs" align="center">
+        <div class="q-pa-md container q-gutter-y-lg" align="center">
             <q-btn to="/suasaude" rounded push size="lg" class="block text-black full-width" color="green" label="SUA SAÚDE" />
             <q-btn to="/socialtruck" rounded push size="lg" class="block text-black full-width" color="blue" label="SOCIAL TRUCK" />
             <q-btn to="/entretenimento" rounded push size="lg" class="block text-black full-width" color="yellow" label="ENTRETENIMENTO" />

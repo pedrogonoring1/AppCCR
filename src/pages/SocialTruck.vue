@@ -33,7 +33,7 @@
 <script>
 import SocialTruck from "../socialtruck.js";
 
-const socialtruck = new SocialTruck();
+/*const socialtruck = new SocialTruck();
 
 socialtruck.addSocialTruck({
     autor: {
@@ -46,7 +46,7 @@ socialtruck.addSocialTruck({
         content: "Fazer algumas paradas é muito bom! Olha a foto massa que tirei da ponte 101.",
         likes: 158
     }
-});
+});*/
 
 export default {
     name: 'PageSocialTruck',
