@@ -43,7 +43,7 @@
 
 
     <!-- Button avaliar -->
-    <div class="row text-center q-mt-lg q-mb-lg">
+    <div class="row text-center q-mt-lg">
         <div class="col-12">
             <br>
             <q-btn label="Avalie um local" class="btn-Acoes btn-blue"/>
@@ -55,7 +55,7 @@
     <!-- Cards Pontos Proximos -->
 
     <div class="row text-center">
-        <div class="col-12 q-mt-md">
+        <div class="col-12 q-mt-lg">
             <label class="text-subtitle1 text-weight-bolder">LOCAIS PRÓXIMOS DE VOCÊ</label>
         </div>
     </div>
