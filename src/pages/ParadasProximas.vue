@@ -37,16 +37,27 @@
                 style="height: 60px; max-width: 60px"
                 class="q-mb-sm"
             /> <br>
-            <label for="">Oficinas</label>
+            <label class="q-mb-lg">Oficinas</label>
         </div>
     </div>
 
 
-    <div class="row text-center">
+    <!-- Button avaliar -->
+    <div class="row text-center q-mt-lg q-mb-lg">
         <div class="col-12">
+            <br>
             <q-btn label="Avalie um local" class="btn-Acoes btn-blue"/>
+            <br>
         </div>
     </div>
+
+
+    <div class="row">
+        
+    </div>
+
+
+
 
     
 
