@@ -4,7 +4,7 @@
     <!-- Title -->
     <div class="row">
         <div class="col-12 q-pt-lg q-mb-lg q-mt-sm">
-            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> ENTRETERIMENTO </label>
+            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> ENTRETENIMENTO </label>
         </div>
     </div>  
 
@@ -163,7 +163,7 @@
 <script>
 
 export default {
-  name: 'PageEntreterimento',
+  name: 'PageEntretenimento',
   data () {
     return {
       stars: 4,
