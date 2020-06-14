@@ -38,13 +38,16 @@
 
         <div class="row text-center">
             <div class="col-12">
-                <q-btn label="Troca de Óleo" class="btn-Acoes btn-blue"/>
+                <q-btn label="Oficinas" class="btn-Acoes btn-blue"/>
+            </div>
+            <div class="col-12">
+                <q-btn label="Troca de Óleo" class="btn-Acoes btn-green"/>
             </div>
             <div class="col-12">
                 <q-btn label="Troca de Rodas" class="btn-Acoes btn-blue"/>
             </div>
             <div class="col-12">
-                <q-btn label="KM Rodados" class="btn-Acoes btn-blue"/>
+                <q-btn label="KM Rodados" class="btn-Acoes btn-green"/>
             </div>
         </div>
 
