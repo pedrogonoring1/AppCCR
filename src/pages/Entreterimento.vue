@@ -15,7 +15,7 @@
             <q-img
                 src="~assets/img/iconSport.png"
                 spinner-color="white"
-                style="height: 45px; max-width: 45px"
+                style="height: 43px; max-width: 43px; margin-bottom: 8px;"
                 class="q-mb-sm"
             /> <br>
             <label for="">Esporte</label>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-4">
             <q-img
-                src="~assets/img/iconFork.png"
+                src="~assets/img/iconWheel.png"
                 spinner-color="white"
                 style="height: 45px; max-width: 45px"
                 class="q-mb-sm"
@@ -32,7 +32,7 @@
         </div>
         <div class="col-4">
             <q-img
-                src="~assets/img/iconConfig.png"
+                src="~assets/img/iconMoney.png"
                 spinner-color="white"
                 style="height: 45px; max-width: 45px"
                 class="q-mb-sm"
@@ -112,6 +112,39 @@
             </q-card-actions>
         </q-card>
     </div>
+
+
+    <!-- Noticia 3 -->
+    <div class="q-pa-md row items-start q-gutter-md">
+        <q-card class="my-card" flat bordered>
+            <q-card-section horizontal>
+                <q-card-section class="q-pt-xs">
+                    <div class="text-h5 q-mt-sm q-mb-xs">Corona Vírus</div>
+                    <div class="text-caption text-grey">
+                        Veja algumas dicas que ajudará a previnir contra COVID-19.
+                    </div>
+                </q-card-section>
+
+                <q-card-section class="col-7 flex flex-center">
+                <q-img
+                    class="rounded-borders"
+                    src="https://lh3.googleusercontent.com/proxy/yhl1UnOVY--VIwCwMygHTxqpe4DiUbJHFoMV18BqUtqT-IwUX8aCbhnDl-TPHE0WUlfUi2ylgEHtl1WFpK1Jq2XGOrJV2roP6CQxcf9HS1Omq2Ft"
+                    style="width: 150px"/>
+                </q-card-section>
+            </q-card-section>
+
+            <q-separator />
+
+            <q-card-actions>
+                <q-btn flat color="primary">
+                Ler agora
+                </q-btn> 
+                <q-btn flat round color="primary" icon="share"/>
+            </q-card-actions>
+        </q-card>
+    </div>
+
+
 
 
 
