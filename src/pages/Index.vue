@@ -4,9 +4,8 @@
             <div class="q-pa-md">
                 <q-card class="row full-width text-center">
                     <q-card-section>
-                    <div class="q-pb-md">
-                        <q-avatar size="100px" font-size="52px" color="grey" text-color="white" icon="account_circle" />
-                        <!-- <q-avatar><img src="https://cdn.quasar.dev/img/avatar.png"></q-avatar> -->
+                    <div class="q-pa-md">
+                        <q-avatar><img :src="motorista['pessoais']['avatar_url']"></q-avatar>
                     </div>
                     <div>Level: {{ motorista["level"] }}</div>
                     </q-card-section>
@@ -14,7 +13,7 @@
                     <q-card-section class="q-mt-lg">
                         <div class="text-h6">{{ motorista["pessoais"]["nome"] }}</div>
                         <div class="q-pb-md">{{ motorista["pessoais"]["cidade"] }}</div>
-                        <div>Dias ativo: 155 dias</div>
+                        <div>Dias ativo: {{ motorista["dias_ativo"] }} dias</div>
                     </q-card-section>
                 </q-card>
             </div>
@@ -32,9 +31,25 @@
 import { LocalStorage } from "quasar";
 
 if (LocalStorage.getItem("motorista") === null) {
-    const motorista = { pessoais: { nome: "Gabriel Lobo", cidade: "Guanambi, BA" }, level: 15 };
+    const motorista = {
+        pessoais: {
+            nome: "Gabriel Lobo",
+            cidade: "Guanambi, BA",
+            avatar_url: "https://cdn.quasar.dev/img/avatar4.jpg",
+        },
+        level: 15,
+        dias_ativo: 155
+    };
+
+    const motoristas = [
+        { pessoais: { nome: "Sabrina Dias", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar2.jpg", }, level: 9, dias_ativo: 155 },
+        { pessoais: { nome: "João Pedro", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar1.jpg", }, level: 16, dias_ativo: 155 },
+        { pessoais: { nome: "Fernanda Rodrigues", cidade: "Guanambi, BA", avatar_url: "https://cdn.quasar.dev/img/avatar3.jpg", }, level: 12, dias_ativo: 155 },
+    ]
     LocalStorage.set("motorista", motorista);
+    LocalStorage.set("motoristas", motoristas);
 }
+
 
 export default {
     name: 'Index',

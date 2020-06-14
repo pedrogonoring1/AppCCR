@@ -4,7 +4,7 @@
     <!-- Title -->
     <div class="row">
         <div class="col-12 q-pt-lg q-mb-sm q-mt-sm">
-            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> SOCIAL TRUNCK </label>
+            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> SOCIAL TRUCK </label>
         </div>
     </div>  
 
@@ -22,7 +22,7 @@
             <q-item>
                 <q-item-section avatar>
                     <q-avatar>
-                        <img src="https://cdn.quasar.dev/img/avatar2.jpg">
+                        <img src="https://cdn.quasar.dev/img/avatar4.jpg">
                     </q-avatar>
                 </q-item-section>
 
@@ -78,7 +78,7 @@
 <script>
 
 export default {
-  name: 'PageSocialTrunck',
+    name: 'PageSocialTruck',
 
 }
 </script>
