@@ -8,18 +8,20 @@
                 VIAGEM ATUAL
             </label> <br> <br>
 
+            <img src="~assets/img/iconLocation.png" alt="" class="tamanhoIconViagem">
             <label class="text-weight-bolder"> 
                 Inicio:
             </label>
-            <p> 
-                São Paulo, São Paulo.
-            </p> 
+            <label> 
+                São Paulo, SP.
+            </label> <br> <br>
 
+            <img src="~assets/img/iconPin.png" alt="" class="tamanhoIconViagem"> 
             <label class="text-weight-bolder"> 
                 Destino:
-            </label> <br>
+            </label>
             <label> 
-                Rio de Janeiro, Rio de Janeiro.
+                Rio de Janeiro, Rj.
             </label>
 
 
