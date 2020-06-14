@@ -1,9 +1,23 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+
+    <!-- Header -->
+    <q-header elevated class="bg-white">
       <q-toolbar>
-        <q-btn flat dense round icon="menu" aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen" />
-        <q-toolbar-title>Hackathon CCR</q-toolbar-title>
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          aria-label="Menu"
+          @click="leftDrawerOpen = !leftDrawerOpen"
+          class="text-dark"
+        />
+
+        <q-toolbar-title class="text-dark">
+          NomeAqui
+        </q-toolbar-title>
+
       </q-toolbar>
     </q-header>
 
@@ -17,6 +31,19 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+
+
+
+    <!-- Menu Footer -->
+    <div class="row items-center text-center fixed-bottom footer">
+      <div class="col-4 "> <img src="~assets/img/iconUser.png" alt="" class="iconFooter responsive"> </div>
+      <div class="col-4 "> <img src="~assets/img/iconTruck.png" alt="" class="iconFooter2 responsive"> </div>
+      <div class="col-4 "> <img src="~assets/img/iconMap.png" alt="" class="iconFooter2 responsive"> </div>
+    </div>
+    
+
+
   </q-layout>
 </template>
 
@@ -25,7 +52,7 @@ import EssentialLink from 'components/EssentialLink'
 
 export default {
   name: 'MainLayout',
-  
+
   components: {
     EssentialLink
   },
