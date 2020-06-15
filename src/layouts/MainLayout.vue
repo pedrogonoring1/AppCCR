@@ -72,25 +72,25 @@ export default {
                 {
                     title: 'Pontos de Paradas',
                     caption: 'Locais de parada',
-                    //icon: '~assets/img/share.png',
+                    icon: 'location_on',
                     link: 'https://quasar.dev'
                 },
                 {
                     title: 'Social Truck',
                     caption: 'Rede social do caminhoneiro',
-                    //icon: 'code',
+                    icon: 'group_add',
                     link: '/socialtruck'
                 },
                 {
                     title: 'Entretenimento',
                     caption: 'Leia algumas boas notícias',
-                    //icon: 'chat',
+                    icon: 'toys',
                     link: 'https://chat.quasar.dev'
                 },
                 {
                     title: 'Oficinas',
                     caption: 'Oficinas próximas de você',
-                    //icon: 'record_voice_over',
+                    icon: 'build',
                     link: 'https://forum.quasar.dev'
                 }
             ]
