@@ -42,14 +42,40 @@ if (!LocalStorageSocialTrucks) {
         },
         {
             autor: {
-                nome: "Sabrina Dias",
-                avatar_url: "https://cdn.quasar.dev/img/avatar2.jpg"
+                nome: "Rodrigo Santos",
+                avatar_url: "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
             },
-            local: "Rodovia 101",
+            local: "Rodovia Avidos Cardoso",
             social: {
-                imagem_url: "https://cdn.quasar.dev/img/parallax2.jpg",
-                content: "Fazer algumas paradas é muito bom! Olha a foto massa que tirei da ponte 101.",
-                likes: 158
+                imagem_url: "https://img.elo7.com.br/product/zoom/224F2DF/painel-caminhao-g-frete-gratis-lona.jpg",
+                content: "O sucesso existe, mas você só vai encontrar ele trabalhando. #VamoQVamo",
+                likes: 1.786
+            }
+        }
+        ,
+        {
+            autor: {
+                nome: "Marta Vieira",
+                avatar_url: "https://pbs.twimg.com/profile_images/874196000747003905/N8kxcjRw.jpg"
+            },
+            local: "BR 202",
+            social: {
+                imagem_url: "https://conteudo.imguol.com.br/c/entretenimento/12/2018/05/30/mulheres-caminhoneiras-1527716926017_v2_450x337.jpg",
+                content: "#MulherNoVolanteSim.",
+                likes: 20.458
+            }
+        }
+        ,
+        {
+            autor: {
+                nome: "Denilton Cargas",
+                avatar_url: "https://pbs.twimg.com/profile_images/1165754931791314945/FRdmYcK0.jpg"
+            },
+            local: "BR 202",
+            social: {
+                imagem_url: "https://canal4.tv.br/wp-content/uploads/2019/09/des453.jpg",
+                content: "Viagem realizada com segurança total 🙏.",
+                likes: 789
             }
         }
     ];
