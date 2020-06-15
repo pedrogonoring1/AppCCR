@@ -3,21 +3,10 @@
 
         <!-- Title -->
         <div class="row">
-            <div class="col-12 q-pt-lg q-mb-lg q-mt-sm">
+            <div class="col-12 q-pt-lg q-mb-md q-mt-sm">
                 <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> OFICINAS PRÓXIMAS </label>
             </div>
         </div>  
-
-
-
-        <!-- Button avaliar -->
-        <div class="row text-center">
-            <div class="col-12">
-                <br>
-                <q-btn label="Avalie uma oficina" class="btn-Acoes btn-blue"/>
-            </div>
-        </div>
-
 
 
         <!-- Cards -->

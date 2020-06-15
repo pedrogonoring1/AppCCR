@@ -5,8 +5,8 @@
     <q-header elevated class="bg-white">
         <q-toolbar>
             <q-btn flat dense round icon="menu" aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen" class="text-dark" />
-            <router-link to="/">
-                <q-toolbar-title class="text-dark">NomeAqui</q-toolbar-title>
+            <router-link to="/" style="text-decoration: none;">
+                <q-toolbar-title class="text-dark">Nas Estradas</q-toolbar-title>
             </router-link>
         </q-toolbar>
     </q-header>

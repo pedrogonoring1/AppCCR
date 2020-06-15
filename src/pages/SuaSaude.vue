@@ -1,17 +1,8 @@
 <template>
   <q-page>
 
-    <!-- Title -->
-    <div class="row">
-        <div class="col-12 q-pt-lg q-mb-md q-mt-sm">
-            <label class="text-subtitle1 text-weight-bolder q-ml-lg q-mt-lg"> SUA SAÚDE </label>
-        </div>
-    </div>  
-
-
-
     <!-- Cards Pontos Proximos -->
-    <div class="row paddingPanel q-mt-xs">
+    <div class="row paddingPanel q-mt-lg">
         <div class="col-12  userInfo">
             <label class="text-subtitle1 text-weight-bolder">SUAS INFORMAÇÕES</label> <br>
             <label class="text-subtitle1 text-weight-bolder">Peso:</label> <label class="text-subtitle1 q-mr-md"> 78kg </label> <a href="">Atualizar</a> <br>
@@ -26,9 +17,9 @@
 
 
 
-    <div class="row text-center q-mt-lg">
+    <div class="row text-center q-mt-xs">
         <div class="col-12 q-mt-lg">
-            <label class="text-subtitle1 text-weight-bolder">DICAS DE ESPECIAIS</label>
+            <label class="text-subtitle1 text-weight-bolder">DICAS ESPECIAIS</label>
         </div>
     </div>
 
