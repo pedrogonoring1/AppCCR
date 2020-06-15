@@ -24,11 +24,13 @@
 
     <!-- Menu Footer -->
     <div class="row items-center text-center fixed-bottom footer">
-        <router-link tag="div" class="col-4 item item-link" to="/">
+        <router-link tag="div" class="col-4 item item-link" to="/" >
             <img src="~assets/img/iconUser.png" alt="" class="iconFooter responsive">
         </router-link>
         <router-link tag="div" class="col-4 item item-link" to="/caminhao">
+        <a @click="triggerWarning"> 
             <img src="~assets/img/iconTruck.png" alt="" class="iconFooter2 responsive">
+        </a>
         </router-link>
         <router-link tag="div" class="col-4 item item-link" to="/viagem">
             <img src="~assets/img/iconMap.png" alt="" class="iconFooter2 responsive">
@@ -46,6 +48,22 @@ export default {
     components: {
         EssentialLink
     },
+
+    methods: {
+    showNotif(){
+      this.$q.notify({
+        message: 'Jim pinged you.',
+        color: 'purple'
+      })
+    },
+
+    triggerWarning () {
+      this.$q.notify({
+        type: 'warning',
+        message: `Ei! Está na hora de trocar o óleo em!`
+      })
+    },
+  },
 
     data () {
         return {

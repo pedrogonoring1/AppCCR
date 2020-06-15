@@ -13,7 +13,7 @@
                     Trocar Óleo em: 
                 </label>
                 <label> 
-                    15/05/2021.
+                    20/06/2021.
                 </label> <br> <br>
 
                 <img src="~assets/img/iconTire.png" alt="" class="tamanhoIconViagem"> 
@@ -52,13 +52,43 @@
         </div>
 
 
+         <!-- Espaço para o final de página -->
+        <div class="row q-mt-lg">
+            <div class="col-12 q-mt-lg">
+                <div class="q-mt-lg"></div>
+            </div>
+        </div>
 
 
     </q-page>
 </template>
 
 <script>
+
+
+
+const dataOleo = "20/06/2021";
+const dataRodas = "23/11/2022";
+const kmRodado = "158.048 km";
+
 export default {
     name: 'PageCaminhao',
+
+    methods: {
+    showNotif(){
+      this.$q.notify({
+        message: 'Jim pinged you.',
+        color: 'purple'
+      })
+    },
+
+    triggerWarning () {
+      this.$q.notify({
+        type: 'warning',
+        message: `Ei! Está na hora de trocar o óleo em!`
+      })
+    },
+  }
+
 }
 </script>
