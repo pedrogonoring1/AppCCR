@@ -13,7 +13,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered content-class="bg-grey-1">
         <q-list>
-            <q-item-label header class="text-grey-8">Essential Links</q-item-label>
+            <q-item-label header class="text-grey-8">Menu</q-item-label>
             <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
         </q-list>
     </q-drawer>
@@ -70,46 +70,28 @@ export default {
             leftDrawerOpen: false,
             essentialLinks: [
                 {
-                    title: 'Docs',
-                    caption: 'quasar.dev',
+                    title: 'Pontos de Paradas',
+                    caption: 'Locais de parada',
                     icon: 'school',
                     link: 'https://quasar.dev'
                 },
                 {
-                    title: 'Github',
-                    caption: 'github.com/quasarframework',
+                    title: 'Social Truck',
+                    caption: 'Rede social do caminhoneiro',
                     icon: 'code',
-                    link: 'https://github.com/quasarframework'
+                    link: '/socialtruck'
                 },
                 {
-                    title: 'Discord Chat Channel',
-                    caption: 'chat.quasar.dev',
+                    title: 'Entretenimento',
+                    caption: 'Leia algumas boas notícias',
                     icon: 'chat',
                     link: 'https://chat.quasar.dev'
                 },
                 {
-                    title: 'Forum',
-                    caption: 'forum.quasar.dev',
+                    title: 'Oficinas',
+                    caption: 'Oficinas próximas de você',
                     icon: 'record_voice_over',
                     link: 'https://forum.quasar.dev'
-                },
-                {
-                    title: 'Twitter',
-                    caption: '@quasarframework',
-                    icon: 'rss_feed',
-                    link: 'https://twitter.quasar.dev'
-                },
-                {
-                    title: 'Facebook',
-                    caption: '@QuasarFramework',
-                    icon: 'public',
-                    link: 'https://facebook.quasar.dev'
-                },
-                {
-                    title: 'Quasar Awesome',
-                    caption: 'Community Quasar projects',
-                    icon: 'favorite',
-                    link: 'https://awesome.quasar.dev'
                 }
             ]
         }
