@@ -6,7 +6,7 @@
         <q-toolbar>
             <q-btn flat dense round icon="menu" aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen" class="text-dark" />
             <router-link to="/" style="text-decoration: none;">
-                <q-toolbar-title class="text-dark">Nas Estradas</q-toolbar-title>
+                <q-toolbar-title class="text-dark"> <img src="~assets/img/logotipo_nas_estradas.png" alt="" style="width: 20px;" q-mr-md>  Nas Estradas</q-toolbar-title>
             </router-link>
         </q-toolbar>
     </q-header>
@@ -72,7 +72,7 @@ export default {
                 {
                     title: 'Pontos de Paradas',
                     caption: 'Locais de parada',
-                    icon: 'school',
+                    //icon: '~assets/img/share.png',
                     link: 'https://quasar.dev'
                 },
                 {
