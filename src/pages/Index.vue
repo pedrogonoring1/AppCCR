@@ -20,7 +20,7 @@
         </div>
 
         <div class="q-gutter-y-ls q-mt-lg" align="center">
-            <q-btn to="/suasaude"  class="btn-Acoes btn-blue" color="green" label="SUA SAÚDE" />
+            <q-btn to="/suasaude"  class="btn-Acoes btn-blue" color="green" label="SUA SAÚDE" @click="showNotif"/>
             <q-btn to="/socialtruck"  class="btn-Acoes btn-blue" color="blue" label="SOCIAL TRUCK" />
             <q-btn to="/entretenimento"  class="btn-Acoes btn-blue" color="orange" label="ENTRETENIMENTO" />
         </div>
@@ -36,6 +36,15 @@ export default {
         return {
             motorista: LocalStorage.getItem("motorista")
         }
+    },
+
+    methods: {
+    showNotif () {
+      this.$q.notify({
+        message: 'Não esqueça da água 😅',
+        color: 'primary'
+      })
     }
+  }
 }
 </script>
