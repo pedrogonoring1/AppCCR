@@ -78,19 +78,19 @@ export default {
                 {
                     title: 'Social Truck',
                     caption: 'Rede social do caminhoneiro',
-                    icon: 'code',
+                    //icon: 'code',
                     link: '/socialtruck'
                 },
                 {
                     title: 'Entretenimento',
                     caption: 'Leia algumas boas notícias',
-                    icon: 'chat',
+                    //icon: 'chat',
                     link: 'https://chat.quasar.dev'
                 },
                 {
                     title: 'Oficinas',
                     caption: 'Oficinas próximas de você',
-                    icon: 'record_voice_over',
+                    //icon: 'record_voice_over',
                     link: 'https://forum.quasar.dev'
                 }
             ]
