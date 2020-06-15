@@ -19,10 +19,10 @@
             </div>
         </div>
 
-        <div class="q-pa-md container q-gutter-y-lg" align="center">
-            <q-btn to="/suasaude" rounded push size="lg" class="block text-black full-width" color="green" label="SUA SAÚDE" />
-            <q-btn to="/socialtruck" rounded push size="lg" class="block text-black full-width" color="blue" label="SOCIAL TRUCK" />
-            <q-btn to="/entretenimento" rounded push size="lg" class="block text-black full-width" color="yellow" label="ENTRETENIMENTO" />
+        <div class="q-gutter-y-ls q-mt-lg" align="center">
+            <q-btn to="/suasaude"  class="btn-Acoes btn-blue" color="green" label="SUA SAÚDE" />
+            <q-btn to="/socialtruck"  class="btn-Acoes btn-blue" color="blue" label="SOCIAL TRUCK" />
+            <q-btn to="/entretenimento"  class="btn-Acoes btn-blue" color="orange" label="ENTRETENIMENTO" />
         </div>
     </q-page>
 </template>

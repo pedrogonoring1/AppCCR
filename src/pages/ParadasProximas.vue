@@ -11,6 +11,16 @@
 
         <!-- Card para filtrar local de parada -->
         <div class="row text-center q-pr-sm q-mt-sm">
+            <div class="col-4"> 
+                <a href="http://localhost:8080/#/oficinas">
+                <q-img
+                    src="~assets/img/iconConfig.png"
+                    spinner-color="white"
+                    style="height: 45px; max-width: 45px"
+                    class="q-mb-sm"
+                /> <br> </a>
+                <label class="q-mb-lg">Oficinas</label>
+            </div>
             <div class="col-4">
                 <q-img
                     src="~assets/img/hotel.png"
@@ -19,7 +29,6 @@
                     class="q-mb-sm"
                 /> <br>
                 <label for="">Hoteis</label>
-                
             </div>
             <div class="col-4">
                 <q-img
@@ -30,15 +39,7 @@
                 /> <br>
                 <label for="">Comida</label>
             </div>
-            <div class="col-4">
-                <q-img
-                    src="~assets/img/iconConfig.png"
-                    spinner-color="white"
-                    style="height: 45px; max-width: 45px"
-                    class="q-mb-sm"
-                /> <br>
-                <label class="q-mb-lg">Oficinas</label>
-            </div>
+            
         </div>
 
 
