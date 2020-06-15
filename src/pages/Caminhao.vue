@@ -128,11 +128,6 @@
 <script>
 
 
-
-const dataOleo = "20/06/2020";
-const dataRodas = "23/11/2022";
-const kmRodado = "158.048 km";
-
 export default {
     name: 'PageCaminhao',
 
